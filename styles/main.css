@@ -1,0 +1,208 @@
+/*** GLOBAL***/
+
+.structure {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10%;  
+    text-align: center
+}
+
+
+/**** presentation***/
+
+.presentation{
+    position: relative;
+}
+
+.presentation img {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.presentation h1 {
+    position: absolute;
+    color:white;
+    font-weight: bold;
+    font-size: 62px;
+    font-family: Helvetica, sans-serif;
+    top: 20px;
+    left: 40%;
+}
+
+.presentation h2 { 
+    position: absolute;
+    background-color: rgba(114, 153, 254, 0.5);
+    border-radius: 8px;
+    width: 350px;
+    padding: 10px 30px 10px 30px;
+    left: 80px;
+    top: 300px;
+    font-size: 36px;
+}
+
+
+/**** Sobre Mi***/
+
+.about-me {
+    background-color: rgb(112, 154, 216);
+    padding: 20px;
+}
+
+
+
+.about-me h2 {
+    margin: 2%;
+    text-align: center;
+    color: darkblue;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.about-me p {
+    margin: 2%;
+    text-align: center;
+}
+
+
+.about-me a {
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: violet;
+    border-radius: 6px;
+}
+
+/****misskills***/
+
+.misskills {
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+
+.misskills h2 {
+    margin: 2%;
+    text-align: center;
+    color: chartreuse;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.columna{
+    width: 50%;
+    color: white;
+    margin-right: 10%;
+}
+
+
+.fila1 {
+    background-color: white;
+    height: 10px;
+    width: 100%;
+    margin: 2.5% 0% 2.5% 0%;
+    border-radius: 6px;
+}
+
+
+.fila2 {
+    background-color: turquoise;
+    height: 10px;
+    width: 50%;
+    border-radius: 6px;
+}
+
+/**** Portafolio***/
+
+
+.briefcase {
+    background-color: gold;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.briefcase h2 {
+    margin: 2%;
+    text-align: center;
+    color: seagreen;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.briefcase figure{
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0%;
+    padding-top: 0%;
+    padding: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+/**** Clientes***/
+
+
+.customers{
+    background-color:#3F4E62 ;
+    padding: 20px;
+    align-items: center;
+}
+
+
+.customers h2 {
+    margin: 2%;
+    text-align: center;
+    color: greenyellow;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.customers figure{
+    margin: 10px;
+}
+
+/**** Contact***/
+
+
+.contact{
+    background-color: rgb(17, 101, 122);
+    padding: 20px;
+}
+
+
+.contact h2 {
+    margin: 2%;
+    text-align: center;
+    color: red;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.form-enviar {
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 10% 2% 10%;
+}
+
+.form-enviar input{
+    width: 45%;
+}
+
+.form-enviar textarea{
+    width: 100%;
+}
+
+.button-enviar {
+    text-decoration: none;
+    margin-left: 45%;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    color: white;
+    background-color: rgb(17, 55, 73);
+    border-radius: 6px;
+}

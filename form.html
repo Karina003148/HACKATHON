@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO </title>
+        <style>
+            input,
+            select {
+                padding: 10px;
+                width: 320px;
+                font-size: 13px;
+                border: 1px solid #aaaaaa ;
+                text-transform: uppercase;
+            }
+
+            button {
+                width: 100%;
+                padding: 20px;
+
+                background-color: blueviolet;
+                color: white;
+                border: 1px solid blueviolet;
+                cursor: pointer;
+            }
+
+            form {
+                padding: 20px;
+                border: 1px solid antiquewhite;
+                background-color: pink;
+                margin-top: 80px;
+            }
+
+            input.focus:invalid 
+                select:focus:invalid {
+                    outline: none;
+                    border: 2px solid red;
+
+            }
+            input.focus:valid 
+                select:focus:valid {
+                    outline: none;
+                    border: 2px solid green;
+                }
+            </style>
+</head>
+<body>
+    <form>
+        <form action="#">
+            <input type="text"placeholder="Nombre" required pattern ="[A-Za-z]+"/>
+            <input type="text"placeholder="Apellido" required pattern ="[A-Za-z]+"/>
+            <hr>
+            <br>
+            <input type="number" min="18" max="80" placeholder="Edad"/>
+            <label for="sexo">Sexo</label>
+             <input type="text" id="sexo" required pattern="hombre|mujer" />
+            <hr>
+            <br>
+            <input type="text" placeholder="DNI" required minlength="M" pattern="[A-Za-z]+"/>
+            <input type="email" placeholder="email" requiered/>
+            <hr>
+            <br>
+            <button> Enviar </button>
+            </form>
+</body>
+</html>
